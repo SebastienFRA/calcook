@@ -1,0 +1,131 @@
+﻿## LANGUE AU DÉMARRAGE -- LANGUAGE AT STARTUP -- SPRACHE BEIM START -- IDIOMA AL INICIO -- LINGUA ALL'AVVIO ##
+# Fr (Français) - Eng (English) - De (Deutsch) - Es (Español) - US (English US) - It (Italiano) #
+
+Langue=Fr
+
+## INGRÉDIENTS --  INGREDIENTS -- ZUTATEN -- INGREDIENTES -- INGREDIENTI ##
+
+I=Farine=0.001=g
+I=Oeufs=0.2=u
+I=Sucre=0.0015=g
+I=Beurre=0.008=g
+I=Lait=0.0011=ml
+I=Sucre vanillé=0.08=u
+I=Levure fraîche=0.0098=g
+I=Levure chimique=0.05=u
+I=Huile de tournesol=0.002=ml
+I=Sel=0.0019=g
+I=Noix de coco rapée=0.0058=g
+
+## FAVORIS -- FAVORITES -- FAVORITEN -- FAVORITOS -- PREFERITI ##
+
+F1=Farine
+F2=Oeufs
+F3=Sucre
+F4=Beurre
+F5=Lait
+F6=Levure fraîche
+F7=Rhum
+F8=
+F9=
+F10=
+
+## NOTICE D'UTILISATION -- USER INSTRUCTIONS -- GEBRAUCHSANWEISUNGEN -- INSTRUCCIONES PARA EL USUARIO -- ISTRUZIONI PER L'UTENTE ##
+
+##### FRANÇAIS #####
+
+# Ce fichier doit toujours se trouver dans le même répertoire que le programme, sinon il ne fonctionnera pas.
+# Ce petit programme permet de contrôler le coût d'un gateau et d'estimer au mieux le prix de vente pour que ce soit accessible et rentable.
+# Pour modifier la langue au démarrage, il suffit de remplacer "Fr" à la ligne "Langue=" par la langue désirée.
+
+# Vous pouvez modifier la liste des ingrédients pour qu'elle convienne à vos besoins en tenant compte des informations suivantes :
+# Le format doit être le suivant : "I=Nom de l'ingrédient=Prix à l'unité choisie=Unité choisie". (La ligne doit toujours commencer par "I=" Pour qu'elle soit prise en compte.
+# Le prix ne doit contenir que des chiffres, seul le point doit être utilsé comme séparateur décimal (pas de virgule !).
+# Le prix à l'unité peut être exprimé qu'avec 5 caractères maximum (5 chiffres ou 4 chiffres et 1 point maximum).
+# Il n'y a pas de limite de nombre d'ingrédients dans la liste (mais seuls 10 ingrédients pourront être utilisés dans le programme).
+# L'ordre n'a pas d'importance, le programme les classe automatiquement par ordre alphabétique dans les listes déroulante.
+
+# 1er exemple : La farine coûte environ 1€ le Kg, je veux ramener le prix au gramme (unité utilisée dans les recettes), je divise le prix du Kg par 1000, ce qui me donne : 0.001 €/g)
+# 2e exemple : La douzaine d'oeufs coûte environ 2,40 €, ce qui revient à 0.2 € à l'unité (2.4/12 = 0.2)
+
+#La section favoris sert à ce que les aliments que vous utilisez le plus souvent s'affichent au démarrage du programme. Respectez le format : "F=Nom de l'ingrédient tel qu'il est écrit dans la liste".
+
+# Vous pouvez modifier ce fichier pendant que le programme est en cours, il suffit de cliquer sur le bouton "Recharger".
+# N'oubliez pas d'enregistrer vos modifications sans changer le nom de ce fichier pour que les modifications soient prises en charge.
+
+
+##### ENGLISH #####
+
+# This file must always be in the same directory as the program, otherwise it will not work.
+# This small program allows you to control the cost of a cake and to best estimate the selling price so that it is accessible and profitable.
+# You should definitely not modify the first column!
+
+# You can modify the list of ingredients to suit your needs by taking into account the following information:
+# The format must be as follows: "Ingredient name=Price per chosen unit=chosen unit".
+# The price must only contain numbers, only the point must be used as a decimal separator (no commas!).
+# The unit price can only be expressed with 5 characters maximum (5 digits or 4 digits and 1 point maximum).
+# There is no limit on the number of ingredients in the list (but only 10 ingredients can be used in the program).
+# The order does not matter, the program automatically sorts them alphabetically.
+
+# 1st example: Flour costs around £1 per kg, I want to reduce the price per gram (unit used in recipes), I divide the price per kg by 1000, which gives me: 0.001 £/g)
+# 2nd example: A dozen eggs costs approximately £2.40, which amounts to £0.2 per unit (2.4/12 = 0.2)
+
+# You can edit this file while the program is running, just click the "Reload" button.
+# Remember to save your changes without changing the name of this file so that the changes are taken care of.
+
+##### DEUTSCH #####
+
+# Diese Datei muss immer im selben Verzeichnis wie das Programm liegen, sonst funktioniert es nicht.
+# Mit diesem kleinen Programm können Sie die Kosten eines Kuchens kontrollieren und den Verkaufspreis bestmöglich einschätzen, sodass er erschwinglich und profitabel ist.
+# Die erste Spalte sollten Sie auf keinen Fall verändern!
+
+# Sie können die Zutatenliste an Ihre Bedürfnisse anpassen, indem Sie die folgenden Informationen berücksichtigen:
+# Das Format muss wie folgt sein: „Zutatenname=Preis pro gewählter Einheit=gewählte Einheit“.
+# Der Preis darf nur Zahlen enthalten, als Dezimaltrennzeichen darf nur der Punkt verwendet werden (keine Kommas!).
+# Der Stückpreis kann nur mit maximal 5 Zeichen ausgedrückt werden (5 Ziffern oder 4 Ziffern und maximal 1 Punkt).
+# Es gibt keine Begrenzung für die Anzahl der Zutaten in der Liste (im Programm können jedoch nur 10 Zutaten verwendet werden).
+# Die Reihenfolge spielt keine Rolle, das Programm sortiert sie automatisch alphabetisch.
+
+# 1. Beispiel: Mehl kostet etwa 1 € pro kg, ich möchte den Preis pro Gramm (in Rezepten verwendete Einheit) reduzieren, ich teile den Preis pro kg durch 1000, das ergibt: 0,001 €/g)
+# 2. Beispiel: Ein Dutzend Eier kostet ca. 2,40 €, also 0,2 € pro Einheit (2,4/12 = 0,2)
+
+# Sie können diese Datei bearbeiten, während das Programm läuft, indem Sie einfach auf die Schaltfläche „Neu laden“ klicken.
+# Denken Sie daran, Ihre Änderungen zu speichern, ohne den Namen dieser Datei zu ändern, damit die Änderungen übernommen werden.
+
+##### ESPAÑOL #####
+
+# Este archivo debe estar siempre en el mismo directorio que el programa, de lo contrario no funcionará.
+# Este pequeño programa te permite controlar el coste de un pastel y estimar mejor el precio de venta para que sea accesible y rentable.
+# ¡Definitivamente no deberías modificar la primera columna!
+
+# Puedes modificar la lista de ingredientes para adaptarla a tus necesidades teniendo en cuenta la siguiente información:
+# El formato debe ser el siguiente: "Nombre del ingrediente=Precio por unidad elegida=unidad elegida".
+# El precio solo debe contener números, solo se debe usar el punto como separador decimal (¡sin comas!).
+# El precio unitario sólo se puede expresar con 5 caracteres como máximo (5 dígitos o 4 dígitos y 1 punto como máximo).
+# No hay límite en la cantidad de ingredientes en la lista (pero solo se pueden usar 10 ingredientes en el programa).
+# El orden no importa, el programa los ordena automáticamente alfabéticamente.
+
+# 1er ejemplo: La harina cuesta alrededor de 1€ el kg, quiero reducir el precio por gramo (unidad utilizada en recetas), divido el precio por kg entre 1000, lo que me da: 0,001€/g)
+# 2º ejemplo: Una docena de huevos cuesta aproximadamente 2,40€, lo que equivale a 0,2€ la unidad (2,4/12 = 0,2)
+
+# Puede editar este archivo mientras el programa se está ejecutando, simplemente haga clic en el botón "Recargar".
+# Recuerde guardar sus cambios sin cambiar el nombre de este archivo para que los cambios sean atendidos.
+
+##### ITALIANO #####
+
+# Questo file deve trovarsi sempre nella stessa directory del programma, altrimenti non funzionerà.
+# Questo piccolo programma ti permette di controllare il costo di una torta e di stimare al meglio il prezzo di vendita in modo che sia accessibile e redditizio.
+# Non dovresti assolutamente modificare la prima colonna!
+
+# Puoi modificare l'elenco degli ingredienti in base alle tue esigenze tenendo conto delle seguenti informazioni:
+# Il formato deve essere il seguente: "Nome ingrediente=Prezzo per unità scelta=unità scelta".
+# Il prezzo deve contenere solo numeri, solo il punto deve essere utilizzato come separatore decimale (niente virgole!).
+# Il prezzo unitario può essere espresso solo con un massimo di 5 caratteri (5 cifre oppure 4 cifre e 1 punto massimo).
+# Non vi è alcun limite al numero di ingredienti nell'elenco (ma nel programma è possibile utilizzare solo 10 ingredienti).
+# L'ordine non ha importanza, il programma li ordina automaticamente in ordine alfabetico.
+
+# 1° esempio: La farina costa circa 1 € al kg, voglio ridurre il prezzo al grammo (unità utilizzata nelle ricette), divido il prezzo al kg per 1000, che mi dà: 0,001 €/g)
+# 2° esempio: una dozzina di uova costa circa € 2,40, ovvero € 0,2 per unità (2,4/12 = 0,2)
+
+# Puoi modificare questo file mentre il programma è in esecuzione, basta fare clic sul pulsante "Ricarica".
+# Ricordati di salvare le modifiche senza cambiare il nome di questo file in modo che le modifiche vengano mantenute.
